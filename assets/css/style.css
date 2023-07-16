@@ -16070,7 +16070,7 @@ iframe {
 
 .single-demo {
     text-align: center;
-    background: var(--color-lessdark);
+    background: #0f0f11;
     border-radius: 10px;
     padding: 20px;
     transition: 0.3s;
