@@ -22,7 +22,10 @@
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
-                pageLanguage: 'en'
+                pageLanguage: 'en',
+                includedLanguages: 'ar,en',
+
+                autoDisplay: 'true',
             }, 'google_translate_element');
         }
     </script>
@@ -37,6 +40,14 @@
             border-radius: 50PX 50PX 50PX 50PX;
             border: none;
             background-color: transparent;
+        }
+        
+        .goog-logo-link {
+            display: none !important;
+        }
+        
+        .goog-te-gadget {
+            color: transparent!important;
         }
     </style>
 
